@@ -1,0 +1,82 @@
+=== Dataset D: [2, 2, 2, 2] ===
+
+>>> InsertionSort sobre dataset D
+Arreglo inicial: [2, 2, 2, 2]
+== Inicio InsertionSort ==
+Arreglo inicial: [2, 2, 2, 2]
+--------------------------------
+Iteración 1 — insertando 2
+Insert: valor 2 en posición 1
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+Iteración 2 — insertando 2
+Insert: valor 2 en posición 2
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+Iteración 3 — insertando 2
+Insert: valor 2 en posición 3
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+== Fin InsertionSort ==
+Comparaciones totales: 3
+Shifts totales: 0
+--------------------------------
+
+>>> SelectionSort sobre dataset D
+Arreglo inicial: [2, 2, 2, 2]
+== Inicio SelectionSort ==
+Arreglo inicial: [2, 2, 2, 2]
+--------------------------------
+Iteración 0
+Swap: pos 0 <-> pos 0 | valores: 2 <-> 2 (sin cambio real)
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+Iteración 1
+Swap: pos 1 <-> pos 1 | valores: 2 <-> 2 (sin cambio real)
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+Iteración 2
+Swap: pos 2 <-> pos 2 | valores: 2 <-> 2 (sin cambio real)
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+== Fin SelectionSort ==
+Comparaciones totales: 6
+Swaps totales: 3
+--------------------------------
+
+>>> BubbleSort sobre dataset D
+Arreglo inicial: [2, 2, 2, 2]
+== Inicio BubbleSort ==
+Arreglo inicial: [2, 2, 2, 2]
+--------------------------------
+Iteración 0
+No hubo swaps, corte temprano
+  2: **
+  2: **
+  2: **
+  2: **
+--------------------------------
+== Fin BubbleSort ==
+Comparaciones totales: 3
+Swaps totales: 0
+Pasadas totales: 1
+--------------------------------
+========================================

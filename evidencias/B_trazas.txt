@@ -1,0 +1,145 @@
+=== Dataset B: [5, 4, 3, 2, 1] ===
+
+>>> InsertionSort sobre dataset B
+Arreglo inicial: [5, 4, 3, 2, 1]
+== Inicio InsertionSort ==
+Arreglo inicial: [5, 4, 3, 2, 1]
+--------------------------------
+Iteración 1 — insertando 4
+Shift: pos 0 -> pos 1 | valor: 5
+Insert: valor 4 en posición 0
+  4: ****
+  5: *****
+  3: ***
+  2: **
+  1: *
+--------------------------------
+Iteración 2 — insertando 3
+Shift: pos 1 -> pos 2 | valor: 5
+Shift: pos 0 -> pos 1 | valor: 4
+Insert: valor 3 en posición 0
+  3: ***
+  4: ****
+  5: *****
+  2: **
+  1: *
+--------------------------------
+Iteración 3 — insertando 2
+Shift: pos 2 -> pos 3 | valor: 5
+Shift: pos 1 -> pos 2 | valor: 4
+Shift: pos 0 -> pos 1 | valor: 3
+Insert: valor 2 en posición 0
+  2: **
+  3: ***
+  4: ****
+  5: *****
+  1: *
+--------------------------------
+Iteración 4 — insertando 1
+Shift: pos 3 -> pos 4 | valor: 5
+Shift: pos 2 -> pos 3 | valor: 4
+Shift: pos 1 -> pos 2 | valor: 3
+Shift: pos 0 -> pos 1 | valor: 2
+Insert: valor 1 en posición 0
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+== Fin InsertionSort ==
+Comparaciones totales: 10
+Shifts totales: 10
+--------------------------------
+
+>>> SelectionSort sobre dataset B
+Arreglo inicial: [5, 4, 3, 2, 1]
+== Inicio SelectionSort ==
+Arreglo inicial: [5, 4, 3, 2, 1]
+--------------------------------
+Iteración 0
+Swap: pos 0 <-> pos 4 | valores: 5 <-> 1
+  1: *
+  4: ****
+  3: ***
+  2: **
+  5: *****
+--------------------------------
+Iteración 1
+Swap: pos 1 <-> pos 3 | valores: 4 <-> 2
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 2
+Swap: pos 2 <-> pos 2 | valores: 3 <-> 3 (sin cambio real)
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 3
+Swap: pos 3 <-> pos 3 | valores: 4 <-> 4 (sin cambio real)
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+== Fin SelectionSort ==
+Comparaciones totales: 10
+Swaps totales: 4
+--------------------------------
+
+>>> BubbleSort sobre dataset B
+Arreglo inicial: [5, 4, 3, 2, 1]
+== Inicio BubbleSort ==
+Arreglo inicial: [5, 4, 3, 2, 1]
+--------------------------------
+Iteración 0
+Swap: pos 0 <-> pos 1 | valores: 5 <-> 4
+Swap: pos 1 <-> pos 2 | valores: 5 <-> 3
+Swap: pos 2 <-> pos 3 | valores: 5 <-> 2
+Swap: pos 3 <-> pos 4 | valores: 5 <-> 1
+  4: ****
+  3: ***
+  2: **
+  1: *
+  5: *****
+--------------------------------
+Iteración 1
+Swap: pos 0 <-> pos 1 | valores: 4 <-> 3
+Swap: pos 1 <-> pos 2 | valores: 4 <-> 2
+Swap: pos 2 <-> pos 3 | valores: 4 <-> 1
+  3: ***
+  2: **
+  1: *
+  4: ****
+  5: *****
+--------------------------------
+Iteración 2
+Swap: pos 0 <-> pos 1 | valores: 3 <-> 2
+Swap: pos 1 <-> pos 2 | valores: 3 <-> 1
+  2: **
+  1: *
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 3
+Swap: pos 0 <-> pos 1 | valores: 2 <-> 1
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+== Fin BubbleSort ==
+Comparaciones totales: 10
+Swaps totales: 10
+Pasadas totales: 4
+--------------------------------
+========================================

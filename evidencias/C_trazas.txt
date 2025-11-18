@@ -1,0 +1,105 @@
+=== Dataset C: [1, 2, 3, 4, 5] ===
+
+>>> InsertionSort sobre dataset C
+Arreglo inicial: [1, 2, 3, 4, 5]
+== Inicio InsertionSort ==
+Arreglo inicial: [1, 2, 3, 4, 5]
+--------------------------------
+Iteración 1 — insertando 2
+Insert: valor 2 en posición 1
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 2 — insertando 3
+Insert: valor 3 en posición 2
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 3 — insertando 4
+Insert: valor 4 en posición 3
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 4 — insertando 5
+Insert: valor 5 en posición 4
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+== Fin InsertionSort ==
+Comparaciones totales: 4
+Shifts totales: 0
+--------------------------------
+
+>>> SelectionSort sobre dataset C
+Arreglo inicial: [1, 2, 3, 4, 5]
+== Inicio SelectionSort ==
+Arreglo inicial: [1, 2, 3, 4, 5]
+--------------------------------
+Iteración 0
+Swap: pos 0 <-> pos 0 | valores: 1 <-> 1 (sin cambio real)
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 1
+Swap: pos 1 <-> pos 1 | valores: 2 <-> 2 (sin cambio real)
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 2
+Swap: pos 2 <-> pos 2 | valores: 3 <-> 3 (sin cambio real)
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+Iteración 3
+Swap: pos 3 <-> pos 3 | valores: 4 <-> 4 (sin cambio real)
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+== Fin SelectionSort ==
+Comparaciones totales: 10
+Swaps totales: 4
+--------------------------------
+
+>>> BubbleSort sobre dataset C
+Arreglo inicial: [1, 2, 3, 4, 5]
+== Inicio BubbleSort ==
+Arreglo inicial: [1, 2, 3, 4, 5]
+--------------------------------
+Iteración 0
+No hubo swaps, corte temprano
+  1: *
+  2: **
+  3: ***
+  4: ****
+  5: *****
+--------------------------------
+== Fin BubbleSort ==
+Comparaciones totales: 4
+Swaps totales: 0
+Pasadas totales: 1
+--------------------------------
+========================================
