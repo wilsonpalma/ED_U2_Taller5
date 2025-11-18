@@ -36,6 +36,7 @@ java -cp out sorting.SortingDemo > evidencias_trazas.txt
 
 ## Notas finales
 
+- **Tabla comparativa:** [Click Aqui](https://github.com/wilsonpalma/ED_U2_Taller5/blob/master/evidencias/tabla_comparativa.md)
 - Si los valores del dataset son muy grandes, las barras pueden quedar excesivamente largas; se recomienda **escalar** la longitud de la barra (por ejemplo usando `value / scale`) y elegir `scale` de modo que la barra máxima tenga ~40–60 símbolos para mantener la legibilidad.
 - Para generar evidencias reproducibles, redirige la salida completa a un archivo:  
   `java -cp out ed.u2.sorting.SortingDemo > evidencias_trazas.txt`
