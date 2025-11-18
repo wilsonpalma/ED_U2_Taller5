@@ -12,8 +12,6 @@
 - Las trazas se activan con el modo por defecto; pasar el argumento `notrace` al ejecutar desactiva las trazas.
 
 ## Casos borde probados
-- Arreglo vacío: `[]`.
-- Arreglo de tamaño 1: `[x]`.
 - Arreglo ya ordenado: `[1,2,3,4,5]`.
 - Arreglo inverso: `[5,4,3,2,1]`.
 - Arreglo con duplicados: `[2,2,2,2]`.
