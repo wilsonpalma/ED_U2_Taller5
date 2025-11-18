@@ -1,0 +1,127 @@
+=== Dataset A: [8, 3, 6, 3, 9] ===
+
+>>> InsertionSort sobre dataset A
+Arreglo inicial: [8, 3, 6, 3, 9]
+== Inicio InsertionSort ==
+Arreglo inicial: [8, 3, 6, 3, 9]
+--------------------------------
+Iteración 1 — insertando 3
+Shift: pos 0 -> pos 1 | valor: 8
+Insert: valor 3 en posición 0
+  3: ***
+  8: ********
+  6: ******
+  3: ***
+  9: *********
+--------------------------------
+Iteración 2 — insertando 6
+Shift: pos 1 -> pos 2 | valor: 8
+Insert: valor 6 en posición 1
+  3: ***
+  6: ******
+  8: ********
+  3: ***
+  9: *********
+--------------------------------
+Iteración 3 — insertando 3
+Shift: pos 2 -> pos 3 | valor: 8
+Shift: pos 1 -> pos 2 | valor: 6
+Insert: valor 3 en posición 1
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+Iteración 4 — insertando 9
+Insert: valor 9 en posición 4
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+== Fin InsertionSort ==
+Comparaciones totales: 7
+Shifts totales: 4
+--------------------------------
+
+>>> SelectionSort sobre dataset A
+Arreglo inicial: [8, 3, 6, 3, 9]
+== Inicio SelectionSort ==
+Arreglo inicial: [8, 3, 6, 3, 9]
+--------------------------------
+Iteración 0
+Swap: pos 0 <-> pos 1 | valores: 8 <-> 3
+  3: ***
+  8: ********
+  6: ******
+  3: ***
+  9: *********
+--------------------------------
+Iteración 1
+Swap: pos 1 <-> pos 3 | valores: 8 <-> 3
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+Iteración 2
+Swap: pos 2 <-> pos 2 | valores: 6 <-> 6 (sin cambio real)
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+Iteración 3
+Swap: pos 3 <-> pos 3 | valores: 8 <-> 8 (sin cambio real)
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+== Fin SelectionSort ==
+Comparaciones totales: 10
+Swaps totales: 4
+--------------------------------
+
+>>> BubbleSort sobre dataset A
+Arreglo inicial: [8, 3, 6, 3, 9]
+== Inicio BubbleSort ==
+Arreglo inicial: [8, 3, 6, 3, 9]
+--------------------------------
+Iteración 0
+Swap: pos 0 <-> pos 1 | valores: 8 <-> 3
+Swap: pos 1 <-> pos 2 | valores: 8 <-> 6
+Swap: pos 2 <-> pos 3 | valores: 8 <-> 3
+  3: ***
+  6: ******
+  3: ***
+  8: ********
+  9: *********
+--------------------------------
+Iteración 1
+Swap: pos 1 <-> pos 2 | valores: 6 <-> 3
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+Iteración 2
+No hubo swaps, corte temprano
+  3: ***
+  3: ***
+  6: ******
+  8: ********
+  9: *********
+--------------------------------
+== Fin BubbleSort ==
+Comparaciones totales: 9
+Swaps totales: 4
+Pasadas totales: 3
+--------------------------------
+========================================
